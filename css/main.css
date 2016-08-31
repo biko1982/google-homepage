@@ -1,0 +1,87 @@
+body, html {
+	font-size: small;
+}
+
+body {
+	background: #fff;
+	color: #222;
+}
+
+
+body, td, a, p, .h {
+	font-family: arial,sans-serif;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#logo {
+	height: 92px;
+	width: 272px;
+	background-image: url("../images/google-logo-small.png");
+}
+
+#logo {
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	position: relative;
+	top: 200px;
+	
+}
+
+#logo-subtext {
+	position: relative;
+	left: 120px;
+	top: 74px;
+}
+
+#form {
+	
+	position: relative;
+	top: 252px;
+	
+}
+
+#form input[type="text"] {
+	border: 1px solid #d9d9d9;
+	width: 584px;
+	height: 38px;
+	
+}
+
+
+#form input[type="submit"]{
+	height: 36px;
+	line-height: 27px;
+	background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	-moz-border-radius: 2px;
+	-moz-user-select: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+}
+
+
+
+
+#form input[type="submit"]:hover{
+	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-color: #f8f8f8;
+	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
