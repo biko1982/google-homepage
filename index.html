@@ -7,26 +7,37 @@
 </head>
 
 <body>
-	<center>
-	<div id="logo">
-		<div id="logo-subtext">Nederland</div>
-	</div>
-	</center>
+	<nav>
+		<a href="#" id="login">Inloggen</a>
+		<a href="#" class="sprite1"></a>
+		<a href="#">Afbeeldingen</a>
+		<a href="#">Gmail</a>
+	</nav>
 	
-
-		<form action="/search" style="overflow:visible" id="form" method="GET" name="f" onsubmit="return q.value!=''" role="search">
-		
-			<center>
-			<input maxlength="2048" name="q" autocomplete="off" title="Zoeken" value="" aria-label="Zoek" type="text">  
-			</center>
-			<center>
-			<input value="Google zoeken" aria-label="Google zoeken" name="btnK" jsaction="sf.chk" type="submit">
-			<input value="Ik doe een gok" aria-label="Ik doe een gok" name="btnI" jsaction="sf.lck" type="submit">
-			</center>
+	
+	<main>
+		<div id="logo">
+			<div id="logo-subtext">Nederland</div>
+		</div>
+		<form id="form" action="#" method="GET" name="form">
+			<input class="searchbar" title="Zoeken" type="text">  
+			
+			<div class="buttons">
+			<input class="buttonl" value="Google zoeken" type="submit">
+			<input class="buttonr"value="Ik doe een gok" type="submit">
+			</div>
 		
 		</form>
+	</main>
 
 
+	<footer>
+		<a class="fl" href="#">Adverteren</a>
+		<a class="fl" href="#">Bedrijf</a>
+		<a class="fl" href="#">Over</a>
+		<a class="fr" href="#">Privacy</a>
+		<a class="fr" href="#">Voorwaarden</a>
+	</footer>
 
 	
 
