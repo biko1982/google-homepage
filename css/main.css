@@ -6,10 +6,12 @@ body{
 
 nav a, footer a{
 	display: inline-block;
-	padding: 10px;
+	line-height: 25px;
+	padding: 0 10px;
 	text-decoration: none;
 	font-size: 13px;
 	font-weight: bold;
+	color: #777;
 }
 
 #login{
@@ -32,11 +34,6 @@ nav a, footer a{
 	position: relative;
 	top: 73px;
 	left: 214px;
-	
-}
-
-#form {
-			
 	
 }
 
@@ -82,14 +79,13 @@ nav a, footer a{
 
 
 nav, footer{
-	height:40px;
-	background-color: #f8f8f8;
+	height:25px;
 	padding: 10px 10px; 
 }
 
 
-
 footer {
+	background-color: #f8f8f8;
 	position: absolute;
 	right: 0;
 	bottom: 0;
